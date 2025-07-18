@@ -22,6 +22,7 @@ public abstract class BankAccount {
     public abstract boolean withdraw(double amount);
 
     public void addTransaction(String type, double amount){
+
         transactions.add(new Transaction(type, amount));
     }
 

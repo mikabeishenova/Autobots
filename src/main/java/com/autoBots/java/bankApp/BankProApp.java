@@ -41,7 +41,7 @@ public class BankProApp {
             System.out.println("1. View accounts");
             System.out.println("2. Transfer between accounts");
             System.out.println("3. Show check");
-            System.out.println("4. Quit the system");
+            System.out.println("0. Quit the system");
 
             String choice = scanner.nextLine();
             switch (choice) {
