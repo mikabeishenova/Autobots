@@ -1,5 +1,6 @@
 public class REsetDemo {
     public static void main(String[] arg){
         System.out.println("Version 1.0.0");
+        System.out.println("Version 1.0.1");
     }
 }
